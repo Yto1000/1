@@ -220,41 +220,65 @@ h3 {
     margin-right: 15px;
 }
 
-.colona {
-}
-
 .schedule-row {
-color: #D4D4D4;
+    color: #D4D4D4;
 }
 
 .schedule-heading {
     background: #111111;
 }
 
-.colona-text {
-display: flex;
-justify-content: space-between;
+.schedule {
+    color:  #ffffff;
+    background-color: #222222;
+    padding: 100px 160px 90px;
 }
 
-.full {
-height: 468px;
-width: 1280px;
-background: #222222;
+.schedule-top {
+    display: flex;
+    gap: 80px;
+    font-family: Courier New;
+    font-size: 24px;
+    color: #FECA30;
+    margin-bottom: 70px  ;
 }
 
-.style {
-font-family: Courier New;
-font-size: 24px;
-width: 159px;
-height: 56px;
-color: #FECA30;
-}
-.style2 {
+.schedule-top-text  {
 font-family: 'Verdana';
 font-size: 14px;
 color: #D4D4D4;
+
 }
 
-.aa {
-  color: #FECA30;  
+.schedule-top-text a {
+  text-decoration: none ;
+  color: #FECA30;
+  border-bottom: 1px solid #FECA30;  
 }
+
+
+.schedule-top-heading, .schedule-top-text {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+
+.schedule th {
+    background-color: #111111;
+    width: 25%;
+    text-align: left;
+    padding: 15px;
+}
+
+.schedule td {
+    width: 25%;
+    border-bottom: 1px solid #555555;
+    padding: 15px;
+}
+
+ 
