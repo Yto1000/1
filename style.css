@@ -281,4 +281,9 @@ color: #D4D4D4;
     padding: 15px;
 }
 
- 
+.tables {
+display: flex;
+max-width: 1280px;
+background: #F0F0F0;
+margin: 0;
+} 
