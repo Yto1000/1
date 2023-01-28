@@ -78,11 +78,15 @@ h3 {
     margin-bottom: 50px;
 } 
 
+.button {
+     border-radius: 25px;
+    border: 0;
+    padding: 15px 0 15px 40px;
+    text-transform: uppercase;
+}
+
 .header-button {
     background-color: #FFCB06;
-    border-radius: 25px;
-    border: 0;
-    padding: 15px 100px 15px 40px;
 }
 
 .header-contacts {
@@ -281,9 +285,44 @@ color: #D4D4D4;
     padding: 15px;
 }
 
-.tables {
-display: flex;
-max-width: 1280px;
-background: #F0F0F0;
-margin: 0;
+.register {
+    display: flex;
+    max-width: 1280px;
+    gap: 80px;
+    padding: 100px 160px 70px;
+    background: #F0F0F0;
 } 
+.register-text,.register-form {
+flex-grow: 1;
+flex-basis: 0;
+}
+
+.register-text {
+    margin-bottom:60px;
+}
+
+
+.form-big_field {
+    padding: 15px 0 15px 20px;
+}
+
+#name , #email {
+width:100% ;
+}
+
+.from-horizontal {
+    display: flex; 
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+#height , #weigtht {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.form-button {
+    color: #fff ;
+    background-color: #222222;
+}
